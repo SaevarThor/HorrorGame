@@ -1,0 +1,2 @@
+Iteration 1 
+Switch out all stats needed to be communicated between classes.
