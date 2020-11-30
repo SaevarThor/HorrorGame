@@ -1,0 +1,15 @@
+Ai Design
+Variables that are changeable by players playing the game and sending data over the internet. 
+
+Variables 
+ -Senses
+    --Sight
+    --Hearing
+    --Smell(?)
+ -Threat Level
+    --Time since Last encounter
+    --Distance from friends
+    --Can´t hear friends
+ -Is Visible
+
+ -Create spawns(?)
