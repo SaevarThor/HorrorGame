@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: 3c2987c9ea9da5b499fa0e0b8162b91b
-timeCreated: 1497387801
-licenseType: Free
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _smoothing: {fileID: 11400000, guid: a5ab2341605b0af4faeaf2107f77e42c, type: 2}
+  - _sensitivity: {fileID: 11400000, guid: 7fd5b69d1273a6c4eb1c79d069afa7cb, type: 2}
+  - _controllerSensitivityHorizontal: {fileID: 11400000, guid: 4bdc15ce0eb9d164786c9c805790c853, type: 2}
+  - _controllerSensitivityVertical: {fileID: 11400000, guid: 082ea2e196b99df4987a9ee33f7cf31e, type: 2}
+  - _controllerSmoothing: {fileID: 11400000, guid: ac8d02ac95f1ea4488a084e95cb56148, type: 2}
+  - _controllerDeadZone: {fileID: 11400000, guid: 7cd842c7c00527241bae16ef3f545560, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

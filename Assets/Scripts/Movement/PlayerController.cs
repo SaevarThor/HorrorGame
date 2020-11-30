@@ -13,6 +13,7 @@ namespace Horror.Controller
 		[SerializeField] private FloatAttribute _runSpeed; 
 		[SerializeField] private FloatAttribute _jumpSpeed; 
 		[SerializeField] private FloatAttribute _gravity; 
+		[SerializeField] private Vector3Attribute _playerPosition; 
 		private float _antiBumperFactor = .75f; 
 		private int _antiBunnyHopFactor = 1; 
 		private bool _limitDiagonalSpeed = true; 
@@ -76,6 +77,8 @@ namespace Horror.Controller
 
 			_moveDirection.y -= _gravity.RunTimeValue * Time.deltaTime; 
 			_grounded = (_controller.Move(_moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;
+
+			_playerPosition.RunTimeValue = this.transform.position; 
 		}
 
 		private void Jump()
@@ -95,6 +98,15 @@ namespace Horror.Controller
 		private void OnControllerColliderHit(ControllerColliderHit hit)
 		{
 			_contactPoint = hit.point; 
+		}
+
+
+		public bool TestFloatInitalizer()
+		{
+			if (_walkSpeed == null || _runSpeed == null || _gravity == null || _jumpSpeed == null)
+				return false; 
+			else 
+				return true; 
 		}
 	}
 }
