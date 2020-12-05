@@ -1,6 +1,6 @@
 
 Delivery 1
--Create MessengerSystem. 
+-Create MessengerSystem. (X).
 -Refactor Interaction System.
 -Keep working on sensory system for AI. 
 -Create Decision making for AI. (Rudimental). 
@@ -8,6 +8,16 @@ Delivery 1
 
 Delivery 2
 -Set Up test Scene for testing purposes.
+-Id for players
+
+
+Messanger System
+iteration 1
+ - You can subscribe to a certain type of data.
+ - You recieve that data at the correct time.
+
+ iteration 2
+ - support multiple subscription for single classes.
 
 Ai Design
 Variables that are changeable by players playing the game and sending data over the internet. 

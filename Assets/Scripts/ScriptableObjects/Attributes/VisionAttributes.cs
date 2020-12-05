@@ -7,5 +7,5 @@ public class VisionAttributes : ScriptableObject
 {
     public float ViewRange;
     public float FieldOfView; 
-    public float ReactionStrength; 
+    public int ReactionStrength; 
 }

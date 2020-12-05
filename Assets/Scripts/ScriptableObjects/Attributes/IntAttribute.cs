@@ -8,7 +8,7 @@ public class IntAttribute : ScriptableObject, ISerializationCallbackReceiver
 {
     public int InitialValue; 
 
-    [NonSerialized] public float RunTimeValue;
+    [NonSerialized] public int RunTimeValue;
 
     public void OnAfterDeserialize() => RunTimeValue = InitialValue; 
 
