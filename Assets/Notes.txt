@@ -1,3 +1,14 @@
+
+Delivery 1
+-Create MessengerSystem. 
+-Refactor Interaction System.
+-Keep working on sensory system for AI. 
+-Create Decision making for AI. (Rudimental). 
+-Create AI - Player Interaction
+
+Delivery 2
+-Set Up test Scene for testing purposes.
+
 Ai Design
 Variables that are changeable by players playing the game and sending data over the internet. 
 

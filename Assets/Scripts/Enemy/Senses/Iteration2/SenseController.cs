@@ -23,6 +23,5 @@ public class SenseController : MonoBehaviour
                 //Send as message for everyone to listen to. 
             }
         }
-        
     }
 }
