@@ -1,8 +1,10 @@
 
 Delivery 1
--Create MessengerSystem. (X).
--Refactor Interaction System.
+-Create MessengerSystem. (X)
+-Refactor Interaction System. (X) 
 -Keep working on sensory system for AI. 
+ -> Refactor sight ray (CastRayFromObjectToTarget) to use blocking collders.
+
 -Create Decision making for AI. (Rudimental). 
 -Create AI - Player Interaction
 

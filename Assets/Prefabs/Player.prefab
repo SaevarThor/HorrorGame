@@ -226,6 +226,7 @@ MonoBehaviour:
   _runSpeed: {fileID: 11400000, guid: f870c0ac24e4b1c4c939c8a2400ffbdf, type: 2}
   _jumpSpeed: {fileID: 11400000, guid: a2da759cd1e86cb4c8090aa0b0269971, type: 2}
   _gravity: {fileID: 11400000, guid: 153b0fe1156b7414284cca9ab2810173, type: 2}
+  _playerPosition: {fileID: 11400000, guid: 32c195082b31f7e44bc7003b2469d449, type: 2}
 --- !u!143 &143022611871024258
 CharacterController:
   m_ObjectHideFlags: 0

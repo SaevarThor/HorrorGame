@@ -6,8 +6,6 @@ namespace Managers
     public class EventManager : MonoBehaviour
     {
         public static EventManager Instance; 
-        public delegate void Interaction();
-        public static event Interaction OnInteraction; 
         public delegate void Jumping();
         public static event Jumping onJump;  
 
@@ -17,12 +15,6 @@ namespace Managers
                 Destroy(this); 
             else 
                 Instance = this;    
-        }
-
-        public void Interact()
-        {
-            if (OnInteraction != null)
-                OnInteraction(); 
         }
 
         public void Jump()

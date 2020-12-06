@@ -9,7 +9,8 @@ public class MessageBus : MonoBehaviour
         NONE,
         GameStart,
         GameEnd,
-        AiSensoryMessage
+        AiSensoryMessage,
+        Interaction
     }
 
     private struct _subscriber
